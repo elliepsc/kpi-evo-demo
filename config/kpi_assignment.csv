@@ -1,0 +1,11 @@
+scope_type,scope_id,kpi_id,version,status,effective_from,effective_to,modified_by
+global,*,kpi1_throughput,v1,active,2023-01-01,9999-12-31,ellie.pascaud
+global,*,kpi2_availability,v1,active,2023-01-01,9999-12-31,ellie.pascaud
+global,*,kpi3_order_accuracy,,not_applicable,2023-01-01,9999-12-31,ellie.pascaud
+client,ACME,kpi1_throughput,v1,active,2023-01-01,2024-05-31,ellie.pascaud
+client,ACME,kpi1_throughput,v2,active,2024-06-01,9999-12-31,ellie.pascaud
+client,ACME,kpi3_order_accuracy,v1,active,2023-01-01,9999-12-31,ellie.pascaud
+client,BOLT,kpi2_availability,,not_applicable,2023-01-01,9999-12-31,ellie.pascaud
+segment,enterprise,kpi2_availability,v2,active,2024-01-01,9999-12-31,ellie.pascaud
+client,CIRRUS,kpi1_throughput,v2,active,2023-01-01,9999-12-31,ellie.pascaud
+client,CIRRUS,kpi3_order_accuracy,v1,active,2023-01-01,9999-12-31,ellie.pascaud

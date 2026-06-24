@@ -1,0 +1,6 @@
+kpi_id,version,git_ref,grain,description,owner,status
+kpi1_throughput,v1,a3f2c1,robot-heure,"Throughput brut: items reussis / robot-heures operationnelles. Runs de test inclus/exclus selon parametre.",ellie.pascaud,deprecated
+kpi1_throughput,v2,d8e4b2,robot-heure,"Throughput hors maintenance programmee >= seuil (parametrable) et hors runs de test.",ellie.pascaud,active
+kpi2_availability,v1,b1c2d3,robot-heure,"Disponibilite brute: actif / (actif + panne + maintenance programmee). Maintenance comptee au denominateur.",ellie.pascaud,active
+kpi2_availability,v2,e4f5a6,robot-heure,"Disponibilite operationnelle: actif / (actif + panne). Maintenance programmee exclue du denominateur.",ellie.pascaud,active
+kpi3_order_accuracy,v1,c7d8e9,commande,"Exactitude commande: lignes correctes / lignes totales. Filtre min_lines parametrable.",ellie.pascaud,active

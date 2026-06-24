@@ -1,0 +1,6 @@
+scope_type,scope_id,kpi_id,version,param_name,param_value,effective_from,effective_to
+global,*,kpi1_throughput,v1,include_test_runs,true,2023-01-01,9999-12-31
+global,*,kpi1_throughput,v2,include_test_runs,false,2023-01-01,9999-12-31
+global,*,kpi1_throughput,v2,maintenance_threshold_h,2,2023-01-01,9999-12-31
+client,CIRRUS,kpi1_throughput,v2,maintenance_threshold_h,4,2023-01-01,9999-12-31
+global,*,kpi3_order_accuracy,v1,min_lines,1,2023-01-01,9999-12-31
