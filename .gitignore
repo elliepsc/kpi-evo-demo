@@ -1,0 +1,6 @@
+# env virtuel
+.venv/
+# pycache
+scripts/__pycache__/
+# backup
+*.bak
